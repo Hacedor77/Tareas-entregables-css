@@ -1,0 +1,170 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  max-width: 1400px;
+  background-color: #2b2d38;
+  color: white;
+}
+
+.header  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  position: relative;
+  left: 160px;
+}
+
+.logo {
+  sice: 36px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  left: 1140px;
+}
+.nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav li {
+  margin-left: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #ABABAB;
+  padding: 5px 0;
+}
+
+.nav a:hover {
+  color: white;
+  border-bottom: 2px solid #db2a6b;
+}
+
+.hero {
+  position: relative;
+  width: 700px;
+  height: 500px;
+  left: 160px;
+ 
+}
+
+.hero h1 {
+  font-family: "Merriweather", serif;
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+.hero p {
+  width: 600px;
+  height: 100px;
+  font-size: 20px;
+  line-height: 35px;
+  letter-spacing: 0;
+  color:  #ABABAB;
+}
+
+.hero ul {
+  width: 400px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: #DB2A6B;
+  padding: 8px 30px;
+  text-decoration: none;
+  border-radius: 10px 10px 10px 0;
+  color: white;
+}
+
+.flechita {
+  color: white;
+}
+
+.ellipse_alta {
+  position: absolute;
+  width: 1000px;
+  height: 1000px;
+  top: 200px;
+  left: 900px;
+  border: 1px;
+  opacity: 25%;
+  color: #E1E1E1;
+}
+.ellipse_baja {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  top: 450px;
+  left: 1000px;
+  border: 1px;
+  opacity: 25%;
+  color: #E1E1E1;
+}
+.purple {
+  position: absolute;
+  width: 230px;
+  height: 490px;
+  top: 150px;
+  left: 900px;
+}
+.pink {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  top: 670px;
+  left: 900px;
+}
+
+.blue {
+  position: absolute;
+  width: 230px;
+  height: 230px;
+  top: 150px;
+  left: 1180px;
+}
+.orange {
+  position: absolute;
+  width: 230px;
+  height: 490px;
+  top: 410px;
+  left: 1180px;
+}
+.yellow {
+  position: absolute;
+  width: 230px;
+  height: 490px;
+  top: 300px;
+  left: 1470px;
+}
+
+.service {
+  position: absolute;
+  width: 600px;
+  height: 60px;
+  top: 750px;
+  left: 160px;
+  
+}
+
+.service a {
+  color: white;
+  text-decoration: none;
+  display:inline-flex;
+  align-items: center;
+  width: 185px;
+  gap: 12px;
+}
