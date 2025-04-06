@@ -1,0 +1,99 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CSS Proyectos XX - Nombre del proyecto</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="" class="logo">
+        <img src="img/logo.svg" alt="Logotipo de Header Spa & Beauty">
+      </a>
+
+      <nav class="nav">
+        <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">About</a></li>
+         <li><a href="#">Services</a></li>
+         <li><a href="#">Facilities</a></li>
+         <li><a href="#" class="more">More<img src="img/pestaña-more.svg" alt=""></a></li>
+        </ul>
+      </nav>
+      <aside class="login">
+        <ul>
+          <li><a href="#"><img src="img/icon-nav.svg" alt="Buscar y Cesta"></a></li>
+          <li><a href="#" class="sign">Sign In</a></li>
+          <li><a href="#" class="button">Sign Up</a></li>
+        </ul>
+      </aside>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero__content">
+          <h1>Bring back the beauty and glow of your skin</h1>
+          <p class="hero__description">We provide you various treatments from head to toe using the best product, advanced technology, and affordable price</p>
+          <div class="hero__play">
+            <a class="hero__button" href="">Book Now</a>
+            <a href="" class="video"><img src="img/icon-video.svg" alt="">Watch Video</a>
+          </div>
+        </div>
+      </section>
+      <section class="items">
+        <div class="special">
+          <img src="img/Face Massage.svg" alt="">
+          <h2>15+</h2>
+          <p>Special Treatment</p>
+        </div>
+        <div class="profesional">
+          <img src="img/Lotus.svg" alt="">
+          <h2>25+</h2>
+          <p>Profesional Therapist</p>
+        </div>
+        <div class="herbal">
+          <img src="img/herbal.svg" alt="">
+          <h2>100%</h2>
+          <p>Herbal Cream Formula</p>
+        </div>
+      </section>
+      <section class="opiniones">
+        <div class="opinion1">
+          <img src="img/pestaña-opiniones.svg" alt="">
+          <p>I have a regular schedule to take treatment from GlowQueen, they gave me the best service and treatment ever to maintain the beauty and health of my skin</p>
+          <h3>Sophia Princeton</h3>
+        </div>
+        <div class="opinion2">
+          <img src="img/pestaña-opiniones.svg" alt="">
+          <p>For the past few years, I've had a hard time finding the right place for skin care to deal with my complicated skin condition, thank God I found GlowQueen to treat my skin</p>
+          <h3>Tamara Jules</h3>
+        </div>
+      </section>
+    </main>
+
+  </div>
+
+
+</body>
+
+</html>
